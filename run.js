@@ -14,9 +14,9 @@ const getLink = (_) => {
 }
 
 const updateResults = (results) => {
-	let frag = '';
-	results.forEach(_ => frag += getLink(_));
-	document.getElementById('root').innerHTML = frag;
+  let frag = '';
+  results.forEach(_ => frag += getLink(_));
+  document.getElementById('root').innerHTML = frag;
 }
 
 const setBindings = () => {
