@@ -1,0 +1,13 @@
+{
+  "name": "fathom-ui-developer-test",
+  "version": "1.0.0",
+  "description": "Fathom UI Developer test",
+  "scripts": {
+    "start": "./getData.sh; http-server;"
+  },
+  "author": "Lewis Coulson",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
